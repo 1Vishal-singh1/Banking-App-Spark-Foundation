@@ -94,7 +94,7 @@ public class TransferTo extends AppCompatActivity implements TransferToAdapter.O
         calculateAmount();
 
         new TransactionHelper(this).insertTransferData(fromUserAccountName, toUserAccountName, transferAmount, 1);
-        Toast.makeText(this, "Transaction Successful!!", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Transaction Successful!!!", Toast.LENGTH_LONG).show();
 
         startActivity(new Intent(TransferTo.this, Home.class));
         finish();
@@ -130,7 +130,7 @@ public class TransferTo extends AppCompatActivity implements TransferToAdapter.O
 
                         db.insert(TransactionEntry.TABLE_NAME, null, values);
 
-                        Toast.makeText(TransferTo.this, "Transaction Cancelled!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(TransferTo.this, "Transaction Cancelled!!!", Toast.LENGTH_LONG).show();
                         startActivity(new Intent(TransferTo.this, UsersList.class));
                         finish();
                     }

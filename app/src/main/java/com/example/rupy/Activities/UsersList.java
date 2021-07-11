@@ -42,7 +42,8 @@ public class UsersList extends AppCompatActivity {
         recyclerView = findViewById(R.id.all_users_list);
         recyclerView.setHasFixedSize(true);
 
-        layoutManager = new GridLayoutManager(this, 2);
+        layoutManager = new GridLayoutManager(this, 
+                1);
         recyclerView.setLayoutManager(layoutManager);
 
         myAdapter = new CustomerAdapter(this, userArrayList);

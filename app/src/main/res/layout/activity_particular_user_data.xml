@@ -22,7 +22,7 @@
             android:fadingEdge="vertical"
             android:padding="5dp"
             android:requiresFadingEdge="horizontal"
-            android:src="@drawable/ic_profiledp" />
+            android:src="@drawable/ic_undraw_female_avatar_w3jk" />
 
         <TextView
             android:id="@+id/name"

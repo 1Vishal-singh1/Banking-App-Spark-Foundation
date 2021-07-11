@@ -5,9 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     app:cardCornerRadius="10dp"
-    app:cardElevation="8dp"
-    app:cardBackgroundColor="@android:color/transparent" >
-
+    app:cardElevation="8dp">
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -19,7 +17,7 @@
             android:layout_width="@dimen/_60sdp"
             android:layout_height="@dimen/_60sdp"
             android:layout_gravity="center"
-            android:src="@drawable/ic_profiledp" />
+            android:src="@drawable/ic_undraw_female_avatar_w3jk" />
 
         <TextView
             android:id="@+id/username"

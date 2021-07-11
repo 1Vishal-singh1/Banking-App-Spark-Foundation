@@ -12,7 +12,7 @@
     <color name="red">#EF5350</color>
     <color name="grey">#B2B2B3</color>
 
-    <color name="colorPrimary">#C330DB</color>
+    <color name="colorPrimary">#FF6200EE</color>
     <color name="colorPrimaryDark">#8C50F8</color>
     <color name="colorAccent">#348Afe</color>
 </resources>
